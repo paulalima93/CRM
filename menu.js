@@ -35,7 +35,7 @@ document.getElementById('btnSair').addEventListener('click', async () => {
 });
 
 // O Firebase fica vigiando: "Alguém está logado?"
-firebase.auth().onAuthStateChanged((user) => {
+firebase.auth.onAuthStateChanged((user) => {
     if (!user) {
         // Se o usuário for null (não estiver logado), chuta ele de volta pro login!
         window.location.href = "index.html";
