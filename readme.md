@@ -1,4 +1,4 @@
-\# 🏢 Projeto Pedagógico: Sistema CRM com Autenticação e Firestore
+# 🏢 Projeto Pedagógico: Sistema CRM com Autenticação e Firestore
 
 
 
@@ -6,7 +6,7 @@ Este repositório contém um sistema completo de Gestão de Clientes (CRM) desen
 
 
 
-\## 🎯 Objetivos de Aprendizagem
+## 🎯 Objetivos de Aprendizagem
 
 
 
@@ -14,55 +14,55 @@ Este projeto capacita o aluno a compreender a comunicação entre a interface do
 
 
 
-\### 🧱 HTML5 (Arquitetura de Dados e Componentização)
+### 🧱 HTML5 (Arquitetura de Dados e Componentização)
 
-\* \*\*Validação de Formulários:\*\* Uso prático de atributos como `required`, restrições de `minlength` para senhas e campos `readonly` bloqueados para edição manual.
+* \*\*Validação de Formulários:\*\* Uso prático de atributos como `required`, restrições de `minlength` para senhas e campos `readonly` bloqueados para edição manual.
 
 \* \*\*Componentização de UI:\*\* Estruturação de contêineres vazios (`<div id="menu-container">`) projetados para receber injeção dinâmica de blocos de código via JavaScript, evitando repetição.
 
 
 
-\### 🎨 CSS3 (Dashboards e Tratamento de Conteúdo)
+### 🎨 CSS3 (Dashboards e Tratamento de Conteúdo)
 
-\* \*\*Layout de Painel (Dashboard):\*\* Implementação de menu lateral estático utilizando `position: fixed` aliado ao ajuste de margens do `body` para garantir a fluidez do conteúdo adjacente.
+* \*\*Layout de Painel (Dashboard):\*\* Implementação de menu lateral estático utilizando `position: fixed` aliado ao ajuste de margens do `body` para garantir a fluidez do conteúdo adjacente.
 
-\* \*\*Prevenção de Quebra de Layout:\*\* Uso de propriedades textuais avançadas (`white-space: nowrap`, `overflow: hidden` e `text-overflow: ellipsis`) para tratar e truncar textos longos retornados do banco de dados de forma previsível.
-
-
-
-\### ⚙️ JavaScript (Backend as a Service, APIs e Regex)
-
-\* \*\*Autenticação (Firebase Auth):\*\* Implementação completa de fluxos de segurança corporativa: registro de funcionários, login, logout e proteção de rotas (Auth Guards) verificando o status de sessão com `onAuthStateChanged`.
-
-\* \*\*Manipulação de Banco de Dados (Firestore CRUD):\*\* Conexão com banco de dados NoSQL para Criar, Ler, Atualizar e Deletar documentos em tempo real.
-
-\* \*\*Comunicação entre Páginas (URL Params):\*\* Extração de parâmetros da URL utilizando a interface `URLSearchParams` para alternar formulários entre modo de Inserção e modo de Edição.
-
-\* \*\*Tratamento de Strings com Regex (Máscaras):\*\* Utilização de Expressões Regulares (`replace(/\\D/g, '')`) combinadas com métodos `.substring()` para formatar dados em tempo real, como máscaras de telefone comercial.
-
-\* \*\*Integração de API Externa (ViaCEP):\*\* Acionamento de requisições Assíncronas (Fetch API) no evento `blur` (perda de foco do input) para preenchimento automatizado e inteligente de endereços.
+* \*\*Prevenção de Quebra de Layout:\*\* Uso de propriedades textuais avançadas (`white-space: nowrap`, `overflow: hidden` e `text-overflow: ellipsis`) para tratar e truncar textos longos retornados do banco de dados de forma previsível.
 
 
 
-\## 🚀 Tecnologias Utilizadas
+### ⚙️ JavaScript (Backend as a Service, APIs e Regex)
+
+* \*\*Autenticação (Firebase Auth):\*\* Implementação completa de fluxos de segurança corporativa: registro de funcionários, login, logout e proteção de rotas (Auth Guards) verificando o status de sessão com `onAuthStateChanged`.
+
+* \*\*Manipulação de Banco de Dados (Firestore CRUD):\*\* Conexão com banco de dados NoSQL para Criar, Ler, Atualizar e Deletar documentos em tempo real.
+
+* \*\*Comunicação entre Páginas (URL Params):\*\* Extração de parâmetros da URL utilizando a interface `URLSearchParams` para alternar formulários entre modo de Inserção e modo de Edição.
+
+* \*\*Tratamento de Strings com Regex (Máscaras):\*\* Utilização de Expressões Regulares (`replace(/\\D/g, '')`) combinadas com métodos `.substring()` para formatar dados em tempo real, como máscaras de telefone comercial.
+
+* \*\*Integração de API Externa (ViaCEP):\*\* Acionamento de requisições Assíncronas (Fetch API) no evento `blur` (perda de foco do input) para preenchimento automatizado e inteligente de endereços.
 
 
 
-\* \*\*HTML5\*\*
-
-\* \*\*CSS3\*\*
-
-\* \*\*JavaScript\*\* (ES6+)
-
-\* \*\*Firebase Authentication\*\* (Gestão de Identidade)
-
-\* \*\*Firebase Cloud Firestore\*\* (Banco de Dados NoSQL)
-
-\* \*\*AwesomeAPI / ViaCEP\*\* (API REST para consulta de logradouros)
+## 🚀 Tecnologias Utilizadas
 
 
 
-\## 📁 Estrutura do Projeto
+* \*\*HTML5\*\*
+
+* \*\*CSS3\*\*
+
+* \*\*JavaScript\*\* (ES6+)
+
+* \*\*Firebase Authentication\*\* (Gestão de Identidade)
+
+* \*\*Firebase Cloud Firestore\*\* (Banco de Dados NoSQL)
+
+* \*\*AwesomeAPI / ViaCEP\*\* (API REST para consulta de logradouros)
+
+
+
+## 📁 Estrutura do Projeto
 
 
 
@@ -88,7 +88,7 @@ Este projeto capacita o aluno a compreender a comunicação entre a interface do
 
 
 
-\## 💻 Como Executar e Estudar
+## 💻 Como Executar e Estudar
 
 
 
