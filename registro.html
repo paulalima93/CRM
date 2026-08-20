@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Funcionário</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth-compat.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Novo Funcionário</h1>
+        <form id="formRegistro">
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha" placeholder="Senha (Mínimo 6 caracteres)" required minlength="6">
+            <input type="password" id="confirmaSenha" placeholder="Confirme sua senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p style="text-align: center; margin-top: 15px;">
+            Já tem conta? <a href="index.html">Faça login aqui</a>
+        </p>
+    </div>
+
+    <script defer src="firebase-config.js"></script>
+    <script defer src="registro.js"></script>
+</body>
+
+</html>

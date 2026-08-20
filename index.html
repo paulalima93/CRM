@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Sistema</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Acesso ao Sistema</h1>
+        <form id="formLogin">
+            <input type="email" id="emailLogin" placeholder="E-mail" required>
+            <input type="password" id="senhaLogin" placeholder="Senha" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p style="text-align: center; margin-top: 15px;">
+            Não tem conta? <a href="registro.html">Cadastre-se aqui</a>
+        </p>
+    </div>
+
+    <script defer src="firebase-config.js"></script>
+    <script defer src="login.js"></script>
+</body>
+</html>

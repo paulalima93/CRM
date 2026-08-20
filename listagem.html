@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
+</head>
+<body>
+    <div id="menu-container"></div>
+        <div class="container" style="max-width: 800px; height: auto; min-height: 90vh;">
+        <h1>Clientes Cadastrados</h1>
+        
+        <div id="lista-clientes" class="user-cards">
+            <p style="text-align: center; width: 100%;">Carregando dados do banco...</p>
+        </div>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script src="listagem.js"></script>
+    <script defer src="menu.js"></script>
+</body>
+</html>
